@@ -1,1 +1,1 @@
-# resnet-cifar10
+# ResNet Implementation for Cifar-10
