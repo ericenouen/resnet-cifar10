@@ -5,6 +5,7 @@ The goal for this project was to create an implementation of ResNet as outlined 
 I took advantage of a program made from a user on [medium](https://medium.com/@joeyism/creating-alexnet-on-tensorflow-from-scratch-part-1-getting-cifar-10-data-46d349a4282f) in order to be able to download the Cifar-10 dataset and work with it easily.
 
 From there I created the model in Keras. The paper outlined the structure of the model to follow the table below. Essentially, there are blocks that contain two convolutions and a skip connection. Stacks of these blocks following the instructions of the table below create the neural network.
+
 ![image](https://user-images.githubusercontent.com/54828661/94476241-39233000-019e-11eb-89fd-4d50d47cac87.png)
 
 The following will analyze the difference between adding the skip connections compared to a regular deep neural network. As outlined in the paper, the regular deep network should experience problems optimizing as more and more layers are added on because the loss function becomes increasingly complex to minimize. The addition of skip connections, which allow the neural network to either disregard or minimize the results of any of the layers that have an accompanying skip connection.
