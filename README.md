@@ -25,20 +25,20 @@ Some of the main differences are that in my implementation I was not able to get
 ### Implementation ResNet Error Percentage Table
 | n | Layers | Train Error % | Test Error % |
 |---|--------|---------------|--------------|
-| 3 | 20     | 99.70         | 89.93        |
-| 5 | 32     | 99.90         | 90.56        |
-| 7 | 44     | 99.91         | 89.71        |
-| 9 | 56     | 99.92         | 89.31        |
+| 3 | 20     | 0.30          | 10.07        |
+| 5 | 32     | 0.10          |  9.44        |
+| 7 | 44     | 0.09          | 10.29        |
+| 9 | 56     | 0.08          | 10.69        |
 
 
 ### Implementation Plain Error Percentage Table
 
 | n | Layers | Train Error % | Test Error % |
 |---|--------|---------------|--------------|
-| 3 | 20     | 99.48         | 88.44        |
-| 5 | 32     | 99.42         | 88.39        |
-| 7 | 44     | 98.88         | 85.59        |
-| 9 | 56     | 94.82         | 80.52        |
+| 3 | 20     |  0.52         | 11.56        |
+| 5 | 32     |  0.58         | 11.61        |
+| 7 | 44     |  1.12         | 14.41        |
+| 9 | 56     |  5.18         | 19.48        |
 
 ### ResNet Paper Test Error Percentage
 ![image](https://user-images.githubusercontent.com/54828661/94479828-5b6b7c80-01a3-11eb-8f61-1c6c10fa141b.png)
