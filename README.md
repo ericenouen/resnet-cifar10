@@ -43,4 +43,4 @@ Some of the main differences are that in my implementation I was not able to get
 ### ResNet Paper Test Error Percentage
 ![image](https://user-images.githubusercontent.com/54828661/94479828-5b6b7c80-01a3-11eb-8f61-1c6c10fa141b.png)
 
-It's clear that my implementation of ResNet was not quite as accurate as the paper, but it's still very clear that the residual networks are much better at learning than the plain networks.
+My implementation of ResNet was not quite as accurate as the paper, but it's still very clear that the residual networks are much better at learning than the plain networks.
