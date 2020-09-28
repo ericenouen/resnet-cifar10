@@ -22,22 +22,21 @@ Some of the main differences are that in my implementation I was not able to get
 # Table Comparison
 
 ## Implementation ResNet Error Percentage Table
-_____________________________________________
 | n | Layers | Train Error % | Test Error % |
 |---|--------|---------------|--------------|
 | 3 | 20     | 99.70         | 89.93        |
 | 5 | 32     | 99.90         | 90.56        |
 | 7 | 44     | 99.91         | 89.71        |
 | 9 | 56     | 99.92         | 89.31        |
-_____________________________________________
+
 
 ## Implementation Plain Error Percentage Table
-_____________________________________________
+
 | n | Layers | Train Error % | Test Error % |
 |---|--------|---------------|--------------|
 | 3 | 20     | 99.48         | 88.44        |
 | 5 | 32     | 99.42         | 88.39        |
 | 7 | 44     | 98.88         | 85.59        |
 | 9 | 56     | 94.82         | 80.52        |
-_____________________________________________
+
 
