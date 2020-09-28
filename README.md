@@ -40,4 +40,6 @@ Some of the main differences are that in my implementation I was not able to get
 | 7 | 44     | 98.88         | 85.59        |
 | 9 | 56     | 94.82         | 80.52        |
 
+### ResNet Paper Test Error Percentage
+![image](https://user-images.githubusercontent.com/54828661/94479828-5b6b7c80-01a3-11eb-8f61-1c6c10fa141b.png)
 
