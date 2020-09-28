@@ -2,7 +2,7 @@
 
 The goal for this project was to create an implementation of ResNet as outlined in [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385).
 
-I took advantage of a program made from a user on [medium](https://medium.com/@joeyism/creating-alexnet-on-tensorflow-from-scratch-part-1-getting-cifar-10-data-46d349a4282f) in order to be able to download the Cifar-10 dataset and work with it easily.
+I took advantage of a program made from a user on [Medium](https://medium.com/@joeyism/creating-alexnet-on-tensorflow-from-scratch-part-1-getting-cifar-10-data-46d349a4282f) in order to be able to download the Cifar-10 dataset and work with it easily.
 
 From there I created the model in Keras. The paper outlined the structure of the model to follow the table below. Essentially, there are blocks that contain two convolutions and a skip connection. Stacks of these blocks following the instructions of the table below create the neural network.
 
